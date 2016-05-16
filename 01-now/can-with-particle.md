@@ -77,6 +77,11 @@ I wrote functions that:
     - Currently limited to 4 messages per second maximum. Works best for 1 message
 per second.
 
+### Working on Hex Communication
+
+I am currently working on ways that the user can communicate with devices on the
+CAN network by supplying data in the form of Hex. I am having to work with 
+multiple conversion functions and the endiness of the data.
 
 
 
