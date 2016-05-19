@@ -83,6 +83,13 @@ I am currently working on ways that the user can communicate with devices on the
 CAN network by supplying data in the form of Hex. I am having to work with 
 multiple conversion functions and the endiness of the data.
 
+## CAN example for v1
+
+The example will send a few strings between the devices.
+
+# To be continued...
+
+I am going to switch to working on other things but will return to CAN soon.
 
 
 [1]: https://www.sparkfun.com/datasheets/DevTools/Arduino/MCP2551.pdf
