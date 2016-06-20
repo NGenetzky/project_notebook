@@ -105,7 +105,9 @@ such as: "on", "off", and "toggle" cover the majority of the actions required.
 
 ## Action: Setup module, Start Timer or Publish value
 
-
+Commands can be created for common routines. Setting up communication or other
+ modules is a perfect example of common routines. It is also helpful when an
+action needs to be repeated at a certain interval.
 
 
 
