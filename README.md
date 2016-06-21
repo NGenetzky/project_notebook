@@ -25,8 +25,8 @@ be printed and pasted into the paper notebook.
 When the notebook was started I considered a few of the
 [Desired Properties of a Project Notebook][1]. It is important to tie together
 the work done in a particular time period. The files with the format: 
-"YYYY-MM-DD.md" should desribe the work done on a day
-([Ideas about Day markdown][2]. 
+"YYYY-MM-DD.md" should desribe the work done on a day; 
+([Ideas about Day markdown][2]) discusses about possible organization of content. 
 
 ## Internet of Things with Particle Devices
 
@@ -53,7 +53,7 @@ keep up to date with advancements in the langauge. SDSU teaches C++98 standard,
 or thought was important.
 
 
-[1]: https://github.com/NGenetzky/project_notebook/tree/master/2016/05/10/Desired_properties_of_the_Notebook.md
+[1]: 2016/05/10/Desired_properties_of_the_Notebook.md
 [2]: 2016/05/11/ideas_about_day_markdown.md
 [3]: 2016/06/08/using_particle_cloud.md
 [4]: https://github.com/NGenetzky/particle-projects
