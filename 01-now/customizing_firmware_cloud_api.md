@@ -30,7 +30,8 @@ Id node_lookup(char *s);
 The data is internally stored as:
 ```cpp
 struct Node {
-
+    Id uid;
+    char path[MAX_PATH_LENGTH];
 }
 std::vector<Node> nodes;
 ```
@@ -89,7 +90,8 @@ particle call DeviceName public_name "arguments"
 Using put:
 ```cpp
 int code_name(char *args); // declare the function
-add_put("public_name", 100);
+set_node(100, "public_name");
+add_put(100, code_name);
 ```
 ```bash
 particle call DeviceName put "public_name=arguments"
@@ -111,4 +113,4 @@ action needs to be repeated at a certain interval.
 
 
 
-[1] 2016/06/08/using_particle_cloud.md
+[1]: 2016/06/08/using_particle_cloud.md

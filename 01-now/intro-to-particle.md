@@ -79,8 +79,8 @@ privately published.
 ### Subscribe
 
 The command line interface can be used to monitor events that meet specified
-conditions. Access the the event stream published by a device is easy to be viewed by
-using the **dashboard** on the particle.io but not very easy to access
+conditions. Accessing the the event stream published by a device is easy through
+the **dashboard** on the particle.io but not very easy to access
 programmatically. I am unable to subscribe to the "server-side-events" aka
 "sse" from Matlab or Tasker.
 

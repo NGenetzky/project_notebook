@@ -31,8 +31,10 @@ the work done in a particular time period. The files with the format:
 ## Internet of Things with Particle Devices
 
 Particle is a type of a microcontroller that has wifi capabilities. An
-introduction is given in [Using Particle Cloud][3]. Most of the code for projects
-involving particle devices is on a github repository, [Particle Projects][4].
+introduction to the capability provided by the particle deivces is given in
+[Intro to Particle][9], and an example of its usage in [Using Particle Cloud][3].
+Most of the code for projects involving particle devices is on a github
+repository, [Particle Projects][4].
 
 There are various communication protocols supported by the Particle devices.
 The I2C projects were described and compared in [I2C on Particle][6]. CAN
@@ -61,3 +63,4 @@ or thought was important.
 [6]: 2016/05/11/i2c_on_particle.md
 [7]: 2016/05/16/can-with-particle-v1.md
 [8]: 2016/05/16/modern-cpp-in-embedded.md
+[9]: 01-now/intro-to-particle.md
