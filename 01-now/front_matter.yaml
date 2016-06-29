@@ -8,14 +8,25 @@ categories:
 tags:
   - edge case
 date:   2014-11-22 09:49:00
-modified: 2016-04-13T15:54:02-04:00
-permalink: /:categories/:year/:month/:day/:title.html # default
-permalink: 2014/11/22/:title
-# permalink: 2014/11/22/Post Title
 published: false
+permalink: /:categories/:year/:month/:day/:title.html # default
+modified: 2016-04-13T15:54:02-04:00
+# permalink: 2014/11/22/:title
+# permalink: 2014/11/22/Post Title
 # author: Nathan Genetzky
 # excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
 # redirect_from:
 #  - /theme-setup/
 # slug: 
+---
+
+---
+layout: single
+title:  "Draft Post"
+header:
+  teaser: "unsplash-gallery-image-2-th.jpg"
+tags:
+  - edge case
+date:   2014-11-22 09:49:00
+published: false
 ---

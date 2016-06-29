@@ -1,5 +1,10 @@
-
-# Starting my Jekyll Website!
+---
+title:  "Starting my Jekyll Website!"
+header:
+  teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
+tags:
+  - project_notebook
+---
 
 I am forking [mmistakes/minimal-mistakes][gh1] to have a prebuilt website theme
 that I can put my content in.
