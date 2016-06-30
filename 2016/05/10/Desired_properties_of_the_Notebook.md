@@ -1,6 +1,20 @@
+---
+layout: single
+title:  "Desired properties of the Notebook"
+header:
+  teaser: "unsplash-gallery-image-2-th.jpg"
+  <!--teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"-->
+tags:
+  - tags
+  - project_notebook
+date:   2016-05-10
+published: false
+
+# User
 Title:  Desired properties of the Notebook  
 Author: Nathan Genetzky  
 Date:   2016-05-10
+---
 
 ## Desired properties of the Notebook
 The intent of this notebook is to provide a log of my progress as I work through

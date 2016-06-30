@@ -1,3 +1,15 @@
+---
+layout: single
+title:  "Modern C++ in Embedded Systems"
+header:
+  teaser: "unsplash-gallery-image-2-th.jpg"
+  <!--teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"-->
+tags:
+  - tags
+  - project_notebook
+date:   2014-11-22
+published: false
+---
 
 # Modern C++ in Embedded Systems
 
