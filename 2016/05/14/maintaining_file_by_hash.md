@@ -1,3 +1,19 @@
+---
+title:  "Maintain File by Hash"
+tags:
+  - tags
+  - project_notebook
+date:   2016-05-14
+published: true
+
+author: Nathan Genetzky
+
+layout: single
+# excerpt:
+# excerpt_separator: <!--more-->
+
+---
+
 
 # Maintain File by Hash
 

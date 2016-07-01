@@ -1,3 +1,19 @@
+---
+title:  "particle-with-mcp23017"
+tags:
+  - tags
+  - project_notebook
+date:   2016-05-10
+published: true
+
+author: Nathan Genetzky
+
+layout: single
+# excerpt:
+# excerpt_separator: <!--more-->
+
+---
+
 
 # Particle with MCP23017
 

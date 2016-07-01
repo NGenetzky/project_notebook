@@ -1,8 +1,19 @@
 ---
-layout: idea
+title:  "examples-keep_it_simple_stupid"
+tags:
+  - tags
+  - project_notebook
+date:   2016-05-10
+published: true
 
-title: Blogging Like a Hacker
+author: Nathan Genetzky
+
+layout: single
+# excerpt:
+# excerpt_separator: <!--more-->
+
 ---
+
 
 # Examples- Keep it simple, stupid
 

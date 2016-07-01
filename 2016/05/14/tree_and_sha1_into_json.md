@@ -1,3 +1,19 @@
+---
+title:  "tree_and_sha1_into_json"
+tags:
+  - tags
+  - project_notebook
+date: 2016/05/14/
+published: true
+
+author: Nathan Genetzky
+
+layout: single
+# excerpt:
+# excerpt_separator: <!--more-->
+
+---
+
 
 # Tree and Sha1 into JSON
 

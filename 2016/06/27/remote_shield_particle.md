@@ -1,3 +1,19 @@
+---
+title:  "remote_shield_particle"
+tags:
+  - tags
+  - project_notebook
+date:   2016-05-10
+published: true
+
+author: Nathan Genetzky
+
+layout: single
+# excerpt:
+# excerpt_separator: <!--more-->
+
+---
+
 
 # 2016-06-27 Working on Smart Car Remote
 

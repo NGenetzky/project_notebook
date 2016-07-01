@@ -1,19 +1,17 @@
 ---
-layout: single
 title:  "Desired properties of the Notebook"
-header:
-  teaser: "unsplash-gallery-image-2-th.jpg"
-  <!--teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"-->
 tags:
   - tags
   - project_notebook
 date:   2016-05-10
-published: false
+published: true
 
-# User
-Title:  Desired properties of the Notebook  
-Author: Nathan Genetzky  
-Date:   2016-05-10
+author: Nathan Genetzky
+
+layout: single
+# excerpt:
+# excerpt_separator: <!--more-->
+
 ---
 
 ## Desired properties of the Notebook
