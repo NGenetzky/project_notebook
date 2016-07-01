@@ -1,3 +1,19 @@
+---
+title:  "TOC"
+tags:
+  - tags
+  - project_notebook
+date:   2016-06-30
+published: true
+
+author: Nathan Genetzky
+
+layout: single
+# excerpt:
+# excerpt_separator: <!--more-->
+
+---
+
 
   * [Nathan Genetzky's Project Notebook](./README.md#nathan-genetzkys-project-notebook)
     * [Introduction](./README.md#introduction)
