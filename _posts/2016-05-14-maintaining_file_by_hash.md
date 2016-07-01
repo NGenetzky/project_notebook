@@ -1,4 +1,5 @@
 ---
+filename: 2016-05-14-maintaining_file_by_hash.md
 title:  "Maintain File by Hash"
 tags:
   - tags

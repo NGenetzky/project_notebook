@@ -1,3 +1,20 @@
+---
+filename: 2016-06-30-customizing_firmware_cloud_api.md
+title:  "Customizing Firmware Cloud API"
+tags:
+  - tags
+  - project_notebook
+date:   2016-06-30
+published: true
+
+author: Nathan Genetzky
+
+layout: single
+excerpt:
+# excerpt_separator: <!--more-->
+
+---
+
 
 # Customizing Firmware Cloud API
 

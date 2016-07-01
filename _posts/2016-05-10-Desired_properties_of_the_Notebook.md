@@ -1,4 +1,5 @@
 ---
+filename: 2016-05-10-Desired_properties_of_the_Notebook.md
 title:  "Desired properties of the Notebook"
 tags:
   - tags

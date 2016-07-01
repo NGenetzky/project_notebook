@@ -1,4 +1,5 @@
 ---
+filename: 2016-05-10-modern-cpp-in-embedded.md
 title:  "Modern C++ in Embedded Systems"
 tags:
   - tags

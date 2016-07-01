@@ -1,4 +1,5 @@
 ---
+filename: 2016-05-10-examples-keep_it_simple_stupid.md
 title:  "examples-keep_it_simple_stupid"
 tags:
   - tags

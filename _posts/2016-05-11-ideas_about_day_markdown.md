@@ -1,4 +1,5 @@
 ---
+filename: 2016-05-11-ideas_about_day_markdown.md
 title:  "Ideas About Day Markdown"
 tags:
   - tags

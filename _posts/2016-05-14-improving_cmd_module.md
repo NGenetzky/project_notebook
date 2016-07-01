@@ -1,4 +1,5 @@
 ---
+filename: 2016-05-14-improving_cmd_module.md
 title:  "Improving Cmd Module"
 tags:
   - tags
