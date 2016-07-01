@@ -1,9 +1,17 @@
 ---
 title:  "Starting my Jekyll Website!"
-header:
-  teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 tags:
+  - tags
   - project_notebook
+date:   2016-06-30
+published: true
+
+author: Nathan Genetzky
+
+layout: single
+excerpt:
+# excerpt_separator: <!--more-->
+
 ---
 
 I am forking [mmistakes/minimal-mistakes][gh1] to have a prebuilt website theme
