@@ -1,21 +1,15 @@
 ---
-filename: 2016-05-10-modern-cpp-in-embedded.md
-title:  "Modern C++ in Embedded Systems"
-tags:
-  - tags
-  - project_notebook
-date:   2016-05-10
-published: true
-
 author: Nathan Genetzky
-
+date: '2016-05-16'
+filename: 2016-05-16-modern-c-in-embedded-systems.md
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
+published: true
+slug: modern-c-in-embedded-systems
+tags:
+- tags
+- project_notebook
+title: Modern C++ in Embedded Systems
 ---
-
-
 
 # Modern C++ in Embedded Systems
 

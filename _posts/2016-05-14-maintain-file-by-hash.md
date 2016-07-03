@@ -1,20 +1,15 @@
 ---
-filename: 2016-05-14-maintaining_file_by_hash.md
-title:  "Maintain File by Hash"
-tags:
-  - tags
-  - project_notebook
-date:   2016-05-14
-published: true
-
 author: Nathan Genetzky
-
+date: '2016-05-14'
+filename: 2016-05-14-maintain-file-by-hash.md
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
+published: true
+slug: maintain-file-by-hash
+tags:
+- tags
+- project_notebook
+title: Maintain File by Hash
 ---
-
 
 # Maintain File by Hash
 

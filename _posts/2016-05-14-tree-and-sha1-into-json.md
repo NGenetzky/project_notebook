@@ -1,20 +1,15 @@
 ---
-filename: 2016-05-14-tree_and_sha1_into_json.md
-title:  "tree_and_sha1_into_json"
-tags:
-  - tags
-  - project_notebook
-date: 2016-05-14
-published: true
-
 author: Nathan Genetzky
-
+date: '2016-05-14'
+filename: 2016-05-14-tree-and-sha1-into-json.md
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
+published: true
+slug: tree-and-sha1-into-json
+tags:
+- tags
+- project_notebook
+title: Tree and SHA1 into Json
 ---
-
 
 # Tree and Sha1 into JSON
 

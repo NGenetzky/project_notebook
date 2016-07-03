@@ -1,20 +1,15 @@
 ---
-filename: 2016-05-10-reviewing-project-notebooks.md
-title:  "reviewing-project-notebooks"
-tags:
-  - tags
-  - project_notebook
-date:   2016-05-10
-published: true
-
 author: Nathan Genetzky
-
+date: '2016-06-24'
+filename: 2016-06-24-reviewing-project-notebooks.md
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
+published: true
+slug: reviewing-project-notebooks
+tags:
+- tags
+- project_notebook
+title: Reviewing Project Notebooks
 ---
-
 
 # Reviewing Project Notebooks
 

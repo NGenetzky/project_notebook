@@ -1,20 +1,15 @@
 ---
-filename: 2016-05-10-examples-keep_it_simple_stupid.md
-title:  "examples-keep_it_simple_stupid"
-tags:
-  - tags
-  - project_notebook
-date:   2016-05-10
-published: true
-
 author: Nathan Genetzky
-
+date: '2016-06-26'
+filename: 2016-06-26-examples-keep-it-simple-stupid.md
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
+published: true
+slug: examples-keep-it-simple-stupid
+tags:
+- tags
+- project_notebook
+title: Examples, Keep it Simple Stupid
 ---
-
 
 # Examples- Keep it simple, stupid
 

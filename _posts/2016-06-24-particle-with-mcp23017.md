@@ -1,20 +1,15 @@
 ---
-filename: 2016-05-10-particle-with-mcp23017.md
-title:  "particle-with-mcp23017"
-tags:
-  - tags
-  - project_notebook
-date:   2016-05-10
-published: true
-
 author: Nathan Genetzky
-
+date: '2016-06-24'
+filename: 2016-06-24-particle-with-mcp23017.md
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
+published: true
+slug: particle-with-mcp23017
+tags:
+- tags
+- project_notebook
+title: Particle With MCP23017
 ---
-
 
 # Particle with MCP23017
 

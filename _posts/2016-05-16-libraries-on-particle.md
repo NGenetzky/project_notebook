@@ -1,18 +1,14 @@
 ---
-filename: 2016-05-10-libraries_on_particle.md
-title:  "libraries_on_particle"
-tags:
-  - tags
-  - project_notebook
-date:   2016-05-10
-published: true
-
 author: Nathan Genetzky
-
+date: '2016-05-16'
+filename: 2016-05-16-libraries-on-particle.md
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
+published: true
+slug: libraries-on-particle
+tags:
+- tags
+- project_notebook
+title: Libraries on Particle
 ---
 
 # The Red Hat newlib C Library

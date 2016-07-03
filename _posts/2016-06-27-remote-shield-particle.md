@@ -1,20 +1,15 @@
 ---
-filename: 2016-05-10-remote_shield_particle.md
-title:  "remote_shield_particle"
-tags:
-  - tags
-  - project_notebook
-date:   2016-05-10
-published: true
-
 author: Nathan Genetzky
-
+date: '2016-06-27'
+filename: 2016-06-27-remote-shield-particle.md
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
+published: true
+slug: remote-shield-particle
+tags:
+- tags
+- project_notebook
+title: Remote Shield Particle
 ---
-
 
 # 2016-06-27 Working on Smart Car Remote
 
@@ -192,5 +187,3 @@ to create a webhook.
     "noDefaults": true
 }
 ```
-
-

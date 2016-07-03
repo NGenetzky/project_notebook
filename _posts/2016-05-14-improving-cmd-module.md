@@ -1,20 +1,15 @@
 ---
-filename: 2016-05-14-improving_cmd_module.md
-title:  "Improving Cmd Module"
-tags:
-  - tags
-  - project_notebook
-date:   2016-05-14
-published: true
-
 author: Nathan Genetzky
-
+date: '2016-05-14'
+filename: 2016-05-14-improving-cmd-module.md
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
+published: true
+slug: improving-cmd-module
+tags:
+- tags
+- project_notebook
+title: Improving Cmd Module
 ---
-
 
 # Improving the cmd(.h/.cpp) module
 
@@ -134,4 +129,3 @@ function of the vector.
     }
 }}
 ```
-

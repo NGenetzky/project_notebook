@@ -1,18 +1,14 @@
 ---
-filename: 2016-05-11-ideas_about_day_markdown.md
-title:  "Ideas About Day Markdown"
-tags:
-  - tags
-  - project_notebook
-date:   2016-05-11
-published: true
-
 author: Nathan Genetzky
-
+date: '2016-05-11'
+filename: 2016-05-11-ideas-about-day-markdown.md
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
+published: true
+slug: ideas-about-day-markdown
+tags:
+- tags
+- project_notebook
+title: Ideas About Day Markdown
 ---
 
 # Ideas About Day Markdown

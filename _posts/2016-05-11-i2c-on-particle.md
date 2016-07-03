@@ -1,21 +1,15 @@
 ---
-filename: 2016-05-11-i2c_on_particle.md
-title:  "I2C on Particle"
-tags:
-  - tags
-  - project_notebook
-date:   2016-05-11
-published: true
-
 author: Nathan Genetzky
-
+date: '2016-05-11'
+filename: 2016-05-11-i2c-on-particle.md
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
+published: true
+slug: i2c-on-particle
+tags:
+- tags
+- project_notebook
+title: I2C on Particle
 ---
-
-# I2C on Particle
 
 ## Existing I2C code
 

@@ -1,18 +1,14 @@
 ---
-filename: 2016-06-29-starting_my_jekyll_website.md
-title:  "Starting my Jekyll Website!"
-tags:
-  - tags
-  - project_notebook
-date:   2016-06-29
-published: true
-
 author: Nathan Genetzky
-
+date: '2016-06-30'
+filename: 2016-06-30-starting-my-jekyll-website.md
 layout: single
-excerpt:
-# excerpt_separator: <!--more-->
-
+published: true
+slug: starting-my-jekyll-website
+tags:
+- tags
+- project_notebook
+title: Starting my Jekyll Website!
 ---
 
 I am forking [mmistakes/minimal-mistakes][gh1] to have a prebuilt website theme

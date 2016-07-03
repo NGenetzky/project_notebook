@@ -1,21 +1,16 @@
 ---
-filename: 2016-05-10-Desired_properties_of_the_Notebook.md
-title:  "Desired properties of the Notebook"
-tags:
-  - tags
-  - project_notebook
-date:   2016-05-10
-published: true
-
 author: Nathan Genetzky
-
+date: '2016-05-10'
+filename: 2016-05-10-desired-properties-of-the-notebook.md
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
+published: true
+slug: desired-properties-of-the-notebook
+tags:
+- tags
+- project_notebook
+title: Desired Properties of the Notebook
 ---
 
-## Desired properties of the Notebook
 The intent of this notebook is to provide a log of my progress as I work through
 projects. The main feature of the notebook is to show my original notes as I work
 through the project. There must be a balance between usability and auditability.
@@ -43,4 +38,4 @@ that revision and the original.
 ### Privacy
 I must be careful not to allow sensitive information to be entered into the
 notebook. Some method should be in place to allow that information to be removed
-from the notebook. 
+from the notebook.

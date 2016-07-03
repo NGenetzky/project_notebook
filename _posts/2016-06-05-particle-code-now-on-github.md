@@ -1,20 +1,15 @@
 ---
-filename: 2016-05-10-particle-code-now-on-github.md
-title:  "particle-code-now-on-github"
-tags:
-  - tags
-  - project_notebook
-date:   2016-05-10
-published: true
-
 author: Nathan Genetzky
-
+date: '2016-06-05'
+filename: 2016-06-05-particle-code-now-on-github.md
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
+published: true
+slug: particle-code-now-on-github
+tags:
+- tags
+- project_notebook
+title: Particle Code now on Github
 ---
-
 
 # Particle Projects are now hosted on [github][1].
 

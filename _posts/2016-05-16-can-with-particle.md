@@ -1,18 +1,14 @@
 ---
-filename: 2016-05-16-can-with-particle-v1.md
-title:  "CAN with Particle"
-tags:
-  - tags
-  - project_notebook
-date:   2016-05-16
-published: true
-
 author: Nathan Genetzky
-
+date: '2016-05-16'
+filename: 2016-05-16-can-with-particle.md
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
+published: true
+slug: can-with-particle
+tags:
+- tags
+- project_notebook
+title: CAN with Particle
 ---
 
 # CAN with Particle
