@@ -1,5 +1,5 @@
 ---
-title:  "Particle"
+title:  "Quick note 1"
 tags:
   - tags
   - project_notebook
@@ -11,11 +11,11 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
+excerpt: |
+    Preparing a repository for github (remove auth tokens).
+    Trying to get voice commands from my phone to Particle.
 
 ---
-
 
 # Particle
 

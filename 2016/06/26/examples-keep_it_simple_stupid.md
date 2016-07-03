@@ -1,5 +1,5 @@
 ---
-title:  "examples-keep_it_simple_stupid"
+title:  "Examples, Keep it Simple Stupid"
 tags:
   - tags
   - project_notebook
@@ -9,8 +9,6 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
 
 ---
 

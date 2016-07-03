@@ -1,5 +1,5 @@
 ---
-title:  "particle-code-now-on-github"
+title:  "Particle Code now on Github"
 tags:
   - tags
   - project_notebook
@@ -9,8 +9,6 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
 
 ---
 

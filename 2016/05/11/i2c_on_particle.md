@@ -9,12 +9,7 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
 ---
-
-# I2C on Particle
 
 ## Existing I2C code
 

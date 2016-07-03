@@ -1,5 +1,5 @@
 ---
-title:  "tree_and_sha1_into_json"
+title:  "Tree and SHA1 into Json"
 tags:
   - tags
   - project_notebook
@@ -9,8 +9,6 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title:  "reviewing-project-notebooks"
+title:  "Reviewing Project Notebooks"
 tags:
   - tags
   - project_notebook
@@ -9,8 +9,6 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
 
 ---
 

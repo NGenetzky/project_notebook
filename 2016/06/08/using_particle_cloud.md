@@ -1,5 +1,5 @@
 ---
-title:  "using_particle_cloud"
+title:  "Using Particle Cloud"
 tags:
   - tags
   - project_notebook
@@ -9,8 +9,6 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
 
 ---
 
