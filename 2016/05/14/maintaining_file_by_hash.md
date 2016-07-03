@@ -3,7 +3,7 @@ title:  "Maintain File by Hash"
 tags:
   - tags
   - project_notebook
-date:   2016-05-14
+date: 2016-05-14
 published: true
 
 author: Nathan Genetzky

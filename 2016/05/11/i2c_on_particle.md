@@ -3,7 +3,7 @@ title:  "I2C on Particle"
 tags:
   - tags
   - project_notebook
-date:   2016-05-11
+date: 2016-05-11
 published: true
 
 author: Nathan Genetzky

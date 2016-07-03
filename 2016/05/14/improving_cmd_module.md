@@ -3,7 +3,7 @@ title:  "Improving Cmd Module"
 tags:
   - tags
   - project_notebook
-date:   2016-05-14
+date: 2016-05-14
 published: true
 
 author: Nathan Genetzky

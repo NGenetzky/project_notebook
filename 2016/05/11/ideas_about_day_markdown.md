@@ -3,7 +3,7 @@ title:  "Ideas About Day Markdown"
 tags:
   - tags
   - project_notebook
-date:   2016-05-11
+date: 2016-05-11
 published: true
 
 author: Nathan Genetzky

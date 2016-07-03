@@ -3,7 +3,7 @@ title:  "Modern C++ in Embedded Systems"
 tags:
   - tags
   - project_notebook
-date:   2016-05-10
+date: 2016-05-16
 published: true
 
 author: Nathan Genetzky

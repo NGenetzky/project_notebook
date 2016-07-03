@@ -3,7 +3,7 @@ title:  "CAN with Particle"
 tags:
   - tags
   - project_notebook
-date:   2016-05-16
+date: 2016-05-16
 published: true
 
 author: Nathan Genetzky

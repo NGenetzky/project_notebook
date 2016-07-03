@@ -3,7 +3,7 @@ title:  "examples-keep_it_simple_stupid"
 tags:
   - tags
   - project_notebook
-date:   2016-05-10
+date: 2016-06-26
 published: true
 
 author: Nathan Genetzky

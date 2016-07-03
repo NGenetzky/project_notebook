@@ -3,7 +3,7 @@ title:  "Desired properties of the Notebook"
 tags:
   - tags
   - project_notebook
-date:   2016-05-10
+date: 2016-05-10
 published: true
 
 author: Nathan Genetzky
