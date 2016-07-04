@@ -1,7 +1,8 @@
 ---
 title:  "intro-to-particle"
 tags:
-  - tags
+  - Particle
+  - intro
   - project_notebook
 date:   2016-05-10
 published: true
@@ -9,13 +10,9 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
 ---
 
-
-# Intro to Particle
+I provide a introduction into Particle.
 
 ## Devices / Products they have
 

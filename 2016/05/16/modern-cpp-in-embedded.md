@@ -1,7 +1,9 @@
 ---
 title:  "Modern C++ in Embedded Systems"
 tags:
-  - tags
+  - cpp
+  - c++11
+  - literature_review
   - project_notebook
 date:   2016-05-10
 published: true
@@ -9,14 +11,10 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
 ---
 
+Reading literature about Modern C++ and its application in Embedded Systems.
 
-
-# Modern C++ in Embedded Systems
 
 ## Sources
 
@@ -31,11 +29,14 @@ variable but I am unsure how to handle it. I will also look at:
 
 
 ## Learned
+
 ### #warnings
 From [Effective C Tip #9 – use #warning][3] by Nigel Jones.
-```Cpp
+
+```cpp
 #warning This is a warning
 ```
+
 This will result in the compiler issuing a warning with the text
 ‘This is a warning’ printed to stderr. Please note that, just as for #error,
 Useful for:
@@ -48,6 +49,7 @@ With C++11 it may be better to investigate unique\_ptr and shared\_ptr before
 considering references, but it is still good to know
 
 [References][1]
+
 > References are safer than pointers because they can’t be null, they can’t be 
 > uninitialized, and they can’t be changed to point to something else. The closest 
 > thing to a reference in C is a const pointer.
@@ -57,6 +59,7 @@ considering references, but it is still good to know
 Need more research into it to quantify the amount of bytes.
 
 [Inline functions][1]
+
 > To estimate the code size impact of an inline function, estimate how many bytes
 > of code it takes to implement it and compare that to the number of bytes needed
 > to do the corresponding function call.
@@ -64,6 +67,7 @@ Need more research into it to quantify the amount of bytes.
 ### Inheritance Physical, not just conceptual
 
 [Inheritance][1]
+
 > What we don’t usually learn in OOD is that the ‘is a’ relationship in C++ has 
 > a physical as well as a conceptual basis. In C++, an object of derived class B 
 > is made up of an object of base class A, with the member data of B tacked on at 
@@ -80,6 +84,7 @@ Impacts
 - Increased size of generated code (they are always linked)
 
 [Virtual Functions][1]
+
 > A class with at least one virtual function is referred to as a ‘polymorphic’
 > class. The distinction between a polymorphic and a non-polymorphic class is 
 > significant because they have different trade-offs in runtime cost and 
@@ -96,6 +101,7 @@ Benefits
 The author provided a very simple and easy to understand use of templates.
 
 [Templates][1]
+
 > Sample template class
 
 ```Cpp
@@ -132,6 +138,7 @@ Solutions
     - This removed the chance that it will heap fragment after years of running
 
 [C++ and the heap][4]
+
 > The main reason for banning heap usage in an embedded application is the threat
 > of heap fragmentation. As the software runs, memory allocations of different
 > sizes are acquired and released. The situation can arise where many small
@@ -145,6 +152,7 @@ Don't use **static** in classes. It is forced to occupied RAM. Instead use **con
 
 #### static in C 
 [ROMable objects][4]
+
 > Linkers for embedded systems allow const static data to be kept in ROM. For a 
 > system written in C, this means that all the non-varying data known at compile
 > time can be specified by static initializers, compiled to be stored in ROM and 
@@ -158,6 +166,7 @@ initialized. The author provides a great great example
 
 First he defined a "ROMable class".
 [ROMable objects][4]
+
 > The criteria for a static initializer to be allowed for a class are:
 > - The class must have no base classes.
 > - It must have no constructor.
@@ -166,13 +175,14 @@ First he defined a "ROMable class".
 > - Any classes it contains must obey the same rules.
 
 <a id="L23" /> [A clean C++ ROMable dictionary][4]
+
 > Now, let’s do it right. In Listing 23, the class Dict in Listing 22 becomes 
 > Table, which is nested privately within the new class Dict. Class Dict also 
 > contains, as a static member, an array of Tables, which we can initialize 
 > statically. The function main() shows use of this class Dict, which has a clean 
 > interface.
 
-```Cpp
+```cpp
 #include <iostream>
 using namespace std;
 class Dict {
@@ -237,6 +247,7 @@ int main() {
 
 The author provides a good example of a lambda used in C++11
 [More about lambdas][4]
+
 ```Cpp
 #include <algorithm>
 

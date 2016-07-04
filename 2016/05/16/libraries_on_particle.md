@@ -1,7 +1,8 @@
 ---
 title:  "libraries_on_particle"
 tags:
-  - tags
+  - Particle
+  - cpp
   - project_notebook
 date:   2016-05-10
 published: true
@@ -9,10 +10,9 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
 ---
+
+Discuss the libraries available on Particle
 
 # The Red Hat newlib C Library
 

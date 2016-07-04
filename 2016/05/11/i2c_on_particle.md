@@ -1,7 +1,10 @@
 ---
 title:  "I2C on Particle"
 tags:
-  - tags
+  - Particle
+  - I2C
+  - cpp
+  - code_review
   - project_notebook
 date:   2016-05-11
 published: true
@@ -9,16 +12,13 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
 ---
 
-# I2C on Particle
+Discussion about code development on I2C module for Particle
 
 ## Existing I2C code
 
-### <a name="A1"/> 1st Attempt [**A1**](#f1)
+### 1st Attempt on I2C module [**A1**](#f1)
 My first attempt was all contained in a single **"main.ino"**. While this worked
 it was very ugly and did not encapsulate the i2c functions.
 
@@ -60,7 +60,7 @@ is attached to each. I used R1=R2=2.2 kOhms.
 }
 ```
 
-### <a name="A2"/> 2nd Attempt [**A2**](#f2)
+###  2nd Attempt  on I2C module [**A2**](#f2)
 Next I split the major functions into **i2c\_particle.h** & **i2c\_particle.cpp** files.
 
 #### main.ino
@@ -97,6 +97,7 @@ Same circuit as was used for [A1](#A1).
     int act(String args) 
     int i2c(String args) 
 ```
+
 #### Errors / TODO
 
 Currently there is an error created in the example that I can not explain. I do
@@ -124,29 +125,22 @@ trap 'echo ">> $BASH_COMMAND"' DEBUG
 ```
 
 ## Projects
-<b id="f1">A1</b> [↩](#A1)
-```json
-{  
-    "particle-i2c-a1":{  
-        "files":{  
-            "main.ino":"0a0ddb46816bb6825c63b632932301c5613969d2",
-            "example.bash":"4a4abba0db9defc6bd855ebec3fc1a0947604a4e"
-        }
-    }
-}
-```
-<b id="f2">A2</b> [↩](#A2)
-```json
-{
-    "particle-i2c-a2": {
-        "files": {
-            "main.ino": "f94973feeb1839e5d76d446d0ee342ab7aeb77b7",
-            "i2c_particle.h": "aabc99a75db76503237eb381260fc53fba2e8cec",
-            "i2c_particle.cpp": "33868f19a51faa0720c330e3974ba3f22d1b4b63",
-            "example.bash": "848035eafbdaade19491821fba1d42b7f363fd84"
-        }
-    }
-}
-```
+
+particle-i2c-a1 <b id="f1">A1</b>
+- [main.ino][a1_main]
+- [example.bash][a1_example]
+
+particle-i2c-a2 <b id="f2">A2</b>
+- [main.ino][a2_main]
+- [example.bash][a2_example]
+- [main.ino][a2_main]
+- [i2c_particle.h][a2_i2c_particle_h]
+- [i2c_particle.cpp][a2_i2c_particle_cpp]
 
 [1]: https://en.wikipedia.org/wiki/Finite-state_machine
+[a1_main]: https://github.com/NGenetzky/project_notebook/blob/7e33bf62132e712c3f3e59e0c9224ed824f2f3c4/2016/05/11/particle-i2c-a1/main.ino
+[a1_example]: https://github.com/NGenetzky/project_notebook/blob/7e33bf62132e712c3f3e59e0c9224ed824f2f3c4/2016/05/11/particle-i2c-a1/example.bash
+[a2_main]: https://github.com/NGenetzky/project_notebook/blob/7e33bf62132e712c3f3e59e0c9224ed824f2f3c4/2016/05/11/particle-i2c-a2/main.ino
+[a2_i2c_particle_h]: https://github.com/NGenetzky/project_notebook/blob/7e33bf62132e712c3f3e59e0c9224ed824f2f3c4/2016/05/11/particle-i2c-a2/i2c_particle.h
+[a2_i2c_particle_cpp]: https://github.com/NGenetzky/project_notebook/blob/7e33bf62132e712c3f3e59e0c9224ed824f2f3c4/2016/05/11/particle-i2c-a2/i2c_particle.cpp
+[a2_example]: https://github.com/NGenetzky/project_notebook/blob/7e33bf62132e712c3f3e59e0c9224ed824f2f3c4/2016/05/11/particle-i2c-a2/example.bash

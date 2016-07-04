@@ -1,7 +1,6 @@
 ---
 title:  "Desired properties of the Notebook"
 tags:
-  - tags
   - project_notebook
 date:   2016-05-10
 published: true
@@ -9,9 +8,6 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
 ---
 
 ## Desired properties of the Notebook
