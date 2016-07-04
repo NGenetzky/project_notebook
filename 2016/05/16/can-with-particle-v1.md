@@ -1,7 +1,8 @@
 ---
 title:  "CAN with Particle"
 tags:
-  - tags
+  - Particle
+  - CAN
   - project_notebook
 date: 2016-05-16
 published: true
@@ -12,7 +13,7 @@ layout: single
 
 ---
 
-# CAN with Particle
+Using MCP2551 to communicate with the CAN protocol with Particle.
 
 ## Research
 
@@ -33,6 +34,7 @@ Microchip : [A CAN Physical Layer Discussion][4]
 ## Getting Started
 
 ### Pinout on Particle
+
 | Pin | Pin Function |
 | --- | --- |
 | Vin | USB V+ |
@@ -40,10 +42,11 @@ Microchip : [A CAN Physical Layer Discussion][4]
 | D2 | CAN2_RX |
 | D1 | CAN2_TX |
 
-<a id="Vin" /> When the Photon is powered via the USB port, VIN will output a voltage of approximately 4.8VDC due to a reverse polarity protection series schottky diode between V+ of USB and VIN.
+When the Photon is powered via the USB port, VIN will output a voltage of approximately 4.8VDC due to a reverse polarity protection series schottky diode between V+ of USB and VIN.
 
 
 ### Pintout on MCP2551
+
 | Pin Number | Pin Name | Pin Function |
 | --- | --- | --- |
 | 1 | TXD | Transmit Data Input |

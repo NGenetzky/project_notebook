@@ -1,7 +1,10 @@
 ---
 title:  "Using Particle Cloud"
 tags:
-  - tags
+  - Particle
+  - cpp
+  - cmd
+  - node
   - project_notebook
 date: 2016-06-08
 published: true
@@ -9,11 +12,10 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-
 ---
 
-
-# Notes about [particle-projects][1]
+Discussion about how I use the Particle cloud to implement new capabilities.
+I discus about [particle-projects][1].
 
 ## Commands (cmd) (Particle.Function:do)
 

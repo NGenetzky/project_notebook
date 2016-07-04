@@ -1,7 +1,11 @@
 ---
 title:  "customizing_firmware_cloud_api"
 tags:
-  - tags
+  - Particle
+  - cmd
+  - put
+  - node
+  - code_review
   - project_notebook
 date:   2016-06-30
 published: true
@@ -9,9 +13,6 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
-
 ---
 
 
@@ -19,7 +20,7 @@ layout: single
 
 ## Previous dicussed
 The do, put, and post capability was previously dicussed in
-[using_particle_cloud.md][1]. That discussion focused on how
+[using\_particle\_cloud.md][1]. That discussion focused on how
 I believed they were useful and how I had used them.
 
 ## Introduction
@@ -38,12 +39,15 @@ a unique identifier. The internal implementation may change but it should not
 affect the way other files use the functions provided by this class. 
 
 The primary public functions of this module are:
+
 ```cpp
 typdef unsigned int Id;
 void add_node(Id uid, char *name);
 Id node_lookup(char *s);
 ```
+
 The data is internally stored as:
+
 ```cpp
 struct Node {
     Id uid;
@@ -51,6 +55,7 @@ struct Node {
 }
 std::vector<Node> nodes;
 ```
+
 The internal storage should be abstracted from the implemntation. Although the
 nodes are stored as a vector it may be better to think of them as a **std::map**
 with different keys when its being editied and when its being used.
@@ -95,20 +100,24 @@ other functions. The only limitation it adds is that the length of the string
 argument reduced by the length of the function name plus one.
 
 Using function:
+
 ```cpp
 int code_name(String args); // declare the function
 particle.function("public_name", code_name); // expose the funciton in setup
 ```
+
 ```bash
 particle call DeviceName public_name "arguments"
 ```
 
 Using put:
+
 ```cpp
 int code_name(char *args); // declare the function
 set_node(100, "public_name");
 add_put(100, code_name);
 ```
+
 ```bash
 particle call DeviceName put "public_name=arguments"
 ```

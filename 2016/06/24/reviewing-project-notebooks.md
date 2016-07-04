@@ -1,7 +1,7 @@
 ---
 title:  "Reviewing Project Notebooks"
 tags:
-  - tags
+  - Jekyll
   - project_notebook
 date: 2016-06-24
 published: true
@@ -9,11 +9,9 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-
 ---
 
-
-# Reviewing Project Notebooks
+Review other project notebooks to try to improve my own.
 
 ## Existing Open Project Notebooks
 

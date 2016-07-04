@@ -1,7 +1,9 @@
 ---
 title:  "Improving Cmd Module"
 tags:
-  - tags
+  - Particle
+  - cpp
+  - code_review
   - project_notebook
 date: 2016-05-14
 published: true
@@ -9,11 +11,9 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-
 ---
 
-
-# Improving the cmd(.h/.cpp) module
+Discussion about modifications to the cmd module written for Particle.
 
 ## Code Review
 
@@ -60,6 +60,8 @@ function of the vector.
 
 
 ## Files
+
+[Browse files on github (specific commit)][gh1]
 
 ### Old Files
 ```json
@@ -132,3 +134,4 @@ function of the vector.
 }}
 ```
 
+[gh1]: https://github.com/NGenetzky/project_notebook/tree/5d87437ec597a112eb6b72e5338060424d27885b/2016/05/14

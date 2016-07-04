@@ -1,7 +1,9 @@
 ---
 title:  "Matlab API"
 tags:
-  - tags
+  - Particle
+  - MATLAB
+  - idea
   - project_notebook
 date: 2016-06-24
 published: true
@@ -9,10 +11,9 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-
 ---
 
-## Matlab API
+Ideas about interfacing between Particle and MATLAB.
 
 ## Brainstorming Improvements
 

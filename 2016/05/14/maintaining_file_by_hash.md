@@ -1,7 +1,8 @@
 ---
 title:  "Maintain File by Hash"
 tags:
-  - tags
+  - short
+  - ideas
   - project_notebook
 date: 2016-05-14
 published: true
@@ -9,11 +10,7 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-
 ---
-
-
-# Maintain File by Hash
 
 It has been a lot of work to maintain and I do not think its worth it. I will be
 removing this directory and relying on git functionality for obtaining these files

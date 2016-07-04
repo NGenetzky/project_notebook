@@ -1,7 +1,6 @@
 ---
 title:  "Desired Properties of the Notebook"
 tags:
-  - tags
   - project_notebook
 date: 2016-05-10
 published: true
@@ -9,7 +8,6 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-
 ---
 
 The intent of this notebook is to provide a log of my progress as I work through

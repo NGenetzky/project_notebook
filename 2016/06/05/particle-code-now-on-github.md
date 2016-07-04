@@ -1,7 +1,10 @@
 ---
 title:  "Particle Code now on Github"
 tags:
-  - tags
+  - Particle
+  - github
+  - matlab
+  - MATLAB
   - project_notebook
 date: 2016-06-05
 published: true
@@ -9,9 +12,10 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-
 ---
 
+Demonstate controlling the RGB LED on the particle device from various platforms
+(such as android and matlab). The code is hosted in a repo.
 
 # Particle Projects are now hosted on [github][1].
 

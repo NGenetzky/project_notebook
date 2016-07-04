@@ -1,7 +1,7 @@
 ---
 title:  "Ideas About Day Markdown"
 tags:
-  - tags
+  - ideas
   - project_notebook
 date: 2016-05-11
 published: true
@@ -9,8 +9,10 @@ published: true
 author: Nathan Genetzky
 
 layout: single
-
 ---
+
+A strangely formatted note that discusses possible organization of discussions
+about things in the notebook.
 
 # Ideas About Day Markdown
 
