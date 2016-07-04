@@ -6,12 +6,14 @@ layout: single
 published: true
 slug: particle-with-mcp23017
 tags:
-- tags
+- Particle
+- I2C
+- ideas
 - project_notebook
 title: Particle With MCP23017
 ---
 
-# Particle with MCP23017
+Discussion about how I could use a 16 bit IO Expander.
 
 ## Reference
 
@@ -33,6 +35,7 @@ to allow this device to be incorporated into my projects. Adafruit has a
 
 Quick easy bitwise read, set, clear, and writes. These *#define*s can be used
 just like a C function (with uint8_t parameters). 
+
 ```Cpp
 #define bitRead(value, bit) (((value) >> (bit)) & 0x01)
 #define bitSet(value, bit) ((value) |= (1UL << (bit)))
@@ -57,10 +60,9 @@ remaining LED could be used as status indicators.
 
 #### Arduino-Keypad library
 
-A library is available for interacting with a keypad. The digitalRead and 
+A [library][gh1] is available for interacting with a keypad. The digitalRead and 
 digitalWrite functions used by the class could be overloaded because the library
 designer was smart and made them a virtual function.
-https://github.com/McTristan/Keypad-spark
 
 ### LED Matrixes
 
@@ -77,5 +79,5 @@ where this was done.
 [1]: https://github.com/adafruit/Adafruit-MCP23017-Arduino-Library
 [2]: https://github.com/pkourany/Adafruit_MCP23017_IDE
 [3]: http://www.instructables.com/id/DIY-I2C-LCD-Display-With-Inputs/
-
+[gh1]: https://github.com/McTristan/Keypad-spark
 [datasheet]: http://ww1.microchip.com/downloads/en/DeviceDoc/21952b.pdf

@@ -6,12 +6,12 @@ layout: single
 published: true
 slug: remote-shield-particle
 tags:
-- tags
+- Particle
+- lab
+- notes
 - project_notebook
 title: Remote Shield Particle
 ---
-
-# 2016-06-27 Working on Smart Car Remote
 
 The objective of this session will be to demonstrate the capability that I have
 implemented for (do/cmd) and (put), but also to explore the new remote I purchased.
@@ -25,9 +25,11 @@ I will close all lab notes at the end of the day and continue it on another day
 if needed with a new note.
 
 ## Circuit
+
 ### Adapting Arduino shield to Particle Device
 'A' will denote the Arduino mapping. 'P' will denote the Particle mapping. The
 arduino mappings describe where the pin is on the shield (no arduino is involved).
+
 ```
 P.Vin=A.5V
 P.GND=A.GND
@@ -88,6 +90,7 @@ Could conditionally perform different commands based on the duration of time the
 button was depressed.
 
 Currently it is easy to staticly choose different actions based on the interval.
+
 ```cpp
 if( d_in.sw1 ){
         if( SW_INTERVAL * 10 < d_in.sw1 ){
@@ -99,12 +102,13 @@ if( d_in.sw1 ){
         } else {
             Particle.publish("scr::sw1", String(d_in.sw1), 60, PRIVATE);
         }
-        
+
         d_in.sw1 = 0; // Zero the duration.
     }
 ```
 
 Option 1 allows any count (of base interval):
+
 ```cpp
 struct SwitchEvents {
     void sw_id;
@@ -114,6 +118,7 @@ struct SwitchEvents {
 ```
 
 Option 2 allows named durations:
+
 ```cpp
 // WARNING: psuedo code.
 Enum class SwitchDuration { SHORT, MEDIUM, LONG
@@ -131,7 +136,7 @@ struct SwitchEvents {
 ```cpp
 // In setup
 Particle.variable("sc_remote", data_string);
-...
+
 // Regularily calling:
 void update(){
     sprintf(data_string, "(%u,%u),(%u,%u),(%u,%u,%u)",
@@ -146,6 +151,7 @@ Publishing a json object of analog values as an event allows the data to be
 sent to the ThingSpeak servers.
 
 TODO: Implement without String
+
 ```cpp
 void thingspeak_analog(){
     String json = String("{\"1\":\""
@@ -163,6 +169,7 @@ void thingspeak_analog(){
 
 This is not code; it is a json object that is read by the Particle command line
 to create a webhook.
+
 ```json
 {
     "event": "thingspeak",

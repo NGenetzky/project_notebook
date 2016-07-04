@@ -6,12 +6,12 @@ layout: single
 published: true
 slug: reviewing-project-notebooks
 tags:
-- tags
+- Jekyll
 - project_notebook
 title: Reviewing Project Notebooks
 ---
 
-# Reviewing Project Notebooks
+Review other project notebooks to try to improve my own.
 
 ## Existing Open Project Notebooks
 

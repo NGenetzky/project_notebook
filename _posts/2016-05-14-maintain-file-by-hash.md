@@ -6,12 +6,11 @@ layout: single
 published: true
 slug: maintain-file-by-hash
 tags:
-- tags
+- short
+- ideas
 - project_notebook
 title: Maintain File by Hash
 ---
-
-# Maintain File by Hash
 
 It has been a lot of work to maintain and I do not think its worth it. I will be
 removing this directory and relying on git functionality for obtaining these files

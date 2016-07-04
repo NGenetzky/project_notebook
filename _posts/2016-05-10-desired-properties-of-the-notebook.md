@@ -6,7 +6,6 @@ layout: single
 published: true
 slug: desired-properties-of-the-notebook
 tags:
-- tags
 - project_notebook
 title: Desired Properties of the Notebook
 ---

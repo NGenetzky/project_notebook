@@ -6,10 +6,13 @@ layout: single
 published: true
 slug: ideas-about-day-markdown
 tags:
-- tags
+- ideas
 - project_notebook
 title: Ideas About Day Markdown
 ---
+
+A strangely formatted note that discusses possible organization of discussions
+about things in the notebook.
 
 # Ideas About Day Markdown
 

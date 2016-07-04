@@ -6,12 +6,16 @@ layout: single
 published: true
 slug: using-particle-cloud
 tags:
-- tags
+- Particle
+- cpp
+- cmd
+- node
 - project_notebook
 title: Using Particle Cloud
 ---
 
-# Notes about [particle-projects][1]
+Discussion about how I use the Particle cloud to implement new capabilities.
+I discus about [particle-projects][1].
 
 ## Commands (cmd) (Particle.Function:do)
 

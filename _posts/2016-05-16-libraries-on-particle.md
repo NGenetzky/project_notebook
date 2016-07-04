@@ -6,10 +6,13 @@ layout: single
 published: true
 slug: libraries-on-particle
 tags:
-- tags
+- Particle
+- cpp
 - project_notebook
 title: Libraries on Particle
 ---
+
+Discuss the libraries available on Particle
 
 # The Red Hat newlib C Library
 

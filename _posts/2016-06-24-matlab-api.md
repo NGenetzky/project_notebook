@@ -6,12 +6,14 @@ layout: single
 published: true
 slug: matlab-api
 tags:
-- tags
+- Particle
+- MATLAB
+- idea
 - project_notebook
 title: Matlab API
 ---
 
-## Matlab API
+Ideas about interfacing between Particle and MATLAB.
 
 ## Brainstorming Improvements
 
