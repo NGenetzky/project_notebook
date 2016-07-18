@@ -5,7 +5,7 @@ tags:
   - cpp
   - code_review
   - project_notebook
-date:   2016-05-14
+date: 2016-05-14
 published: true
 
 author: Nathan Genetzky

@@ -1,12 +1,12 @@
 ---
-title:  "particle-code-now-on-github"
+title:  "Particle Code now on Github"
 tags:
   - Particle
   - github
   - matlab
   - MATLAB
   - project_notebook
-date:   2016-05-10
+date: 2016-06-05
 published: true
 
 author: Nathan Genetzky

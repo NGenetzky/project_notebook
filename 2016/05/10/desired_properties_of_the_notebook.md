@@ -1,8 +1,8 @@
 ---
-title:  "Desired properties of the Notebook"
+title:  "Desired Properties of the Notebook"
 tags:
   - project_notebook
-date:   2016-05-10
+date: 2016-05-10
 published: true
 
 author: Nathan Genetzky
@@ -10,7 +10,6 @@ author: Nathan Genetzky
 layout: single
 ---
 
-## Desired properties of the Notebook
 The intent of this notebook is to provide a log of my progress as I work through
 projects. The main feature of the notebook is to show my original notes as I work
 through the project. There must be a balance between usability and auditability.

@@ -1,10 +1,10 @@
 ---
-title:  "tree_and_sha1_into_json"
+title:  "Tree and SHA1 into Json"
 tags:
   - code_review
   - short
   - project_notebook
-date: 2016/05/14/
+date: 2016-05-14
 published: true
 
 author: Nathan Genetzky

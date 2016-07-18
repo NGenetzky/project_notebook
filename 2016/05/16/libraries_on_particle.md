@@ -1,10 +1,10 @@
 ---
-title:  "libraries_on_particle"
+title:  "Libraries on Particle"
 tags:
   - Particle
   - cpp
   - project_notebook
-date:   2016-05-10
+date: 2016-05-16
 published: true
 
 author: Nathan Genetzky

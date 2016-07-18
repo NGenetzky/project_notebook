@@ -1,9 +1,9 @@
 ---
-title:  "reviewing-project-notebooks"
+title:  "Reviewing Project Notebooks"
 tags:
   - Jekyll
   - project_notebook
-date:   2016-05-10
+date: 2016-06-24
 published: true
 
 author: Nathan Genetzky

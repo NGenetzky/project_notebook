@@ -1,9 +1,9 @@
 ---
-title:  "examples-keep_it_simple_stupid"
+title:  "Examples, Keep it Simple Stupid"
 tags:
   - examples
   - project_notebook
-date:   2016-05-10
+date: 2016-06-26
 published: true
 
 author: Nathan Genetzky

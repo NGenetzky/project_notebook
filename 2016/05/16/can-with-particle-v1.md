@@ -4,14 +4,12 @@ tags:
   - Particle
   - CAN
   - project_notebook
-date:   2016-05-16
+date: 2016-05-16
 published: true
 
 author: Nathan Genetzky
 
 layout: single
-# excerpt:
-# excerpt_separator: <!--more-->
 
 ---
 

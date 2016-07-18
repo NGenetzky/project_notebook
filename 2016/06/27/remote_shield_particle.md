@@ -1,11 +1,11 @@
 ---
-title:  "remote_shield_particle"
+title:  "Remote Shield Particle"
 tags:
   - Particle
   - lab
   - notes
   - project_notebook
-date:   2016-05-10
+date: 2016-06-27
 published: true
 
 author: Nathan Genetzky

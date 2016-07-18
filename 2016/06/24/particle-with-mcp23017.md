@@ -1,11 +1,11 @@
 ---
-title:  "particle-with-mcp23017"
+title:  "Particle With MCP23017"
 tags:
   - Particle
   - I2C
   - ideas
   - project_notebook
-date:   2016-05-10
+date: 2016-06-24
 published: true
 
 author: Nathan Genetzky
