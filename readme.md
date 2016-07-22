@@ -1,5 +1,5 @@
 ---
-permalink: /project_notebook/readme/
+permalink: /project_notebook/
 title: "README for Project Notebook"
 excerpt: "README of Project Notebook"
 modified: 2016-04-18T16:39:37-04:00

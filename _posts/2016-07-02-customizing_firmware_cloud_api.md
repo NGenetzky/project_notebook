@@ -1,5 +1,5 @@
 ---
-title:  "customizing_firmware_cloud_api"
+title:  "Customizing Firmware Cloud API"
 tags:
   - Particle
   - cmd
