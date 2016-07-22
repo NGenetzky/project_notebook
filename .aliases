@@ -1,0 +1,19 @@
+
+repo=~/workspace/project_notebook
+
+alias  git_rm_only_deleted='.  $repo/2016/07/02/git_rm_only_deleted.bash'
+alias  copy_all_markdown='.  $repo/2016/07/02/copy_all_markdown.bash'
+alias  rgb_and_particle_cmds='.  $repo/2016/05/14/particle_cmd_v1/rgb_and_particle_cmds.bash'
+alias  particle_i2c_a1='.  $repo/2016/05/11/particle_i2c_a1/example.bash'
+alias  particle_i2c_a2='.  $repo/2016/05/11/particle_i2c_a2/example.bash'
+alias  particle_can_v1='.  $repo/2016/05/16/particle_can_v1/examples/can.bash'
+alias  savefile='.  $repo/2016/05/10/savefile.bash'
+alias  particle_board_cmd='.  $repo/2016/06/05/particle_cmd_v1/firmware/examples/particle_board_cmd/flash.bash'
+alias  demo_cmd_rgb='.  $repo/2016/06/05/particle_cmd_v1/firmware/examples/particle_board_cmd/demo_cmd_rgb.bash'
+
+alias jekyll_frontmatter='python  $repo/2016/07/04/jekyll_frontmatter.py'
+alias archive_tree='python  $repo/2016/05/14/archive_tree.py'
+alias json_tree='python  $repo/2016/05/14/json_tree.py'
+
+alias jekyll_new_post_now='.  $repo/2016/07/04/jekyll_new_post_now.sh'
+alias jekyll_use_front_matter='.  $repo/2016/07/04/jekyll_use_front_matter.sh'
