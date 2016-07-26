@@ -60,6 +60,7 @@ When the Photon is powered via the USB port, VIN will output a voltage of approx
 ### Circuit
 The Circuit is not overly complex, but will be discussed as two halves. The
 circuit connected to Matt will be described, and Parker is the same circuit.
+
 - The two share the same CANH and CANL nodes (these are not shown in circuit).
 - They could also share the same 5V and GND.
 - Termination resistors are between CANH and CANL on both sides, R1=R2=120 Ohms.
