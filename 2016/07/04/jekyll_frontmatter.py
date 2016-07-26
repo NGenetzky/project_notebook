@@ -6,6 +6,7 @@ import re
 from datetime import datetime
 
 YYYYMMDD = re.compile('\d{4}[-/]\d{2}[-/]\d{2}')
+DEST='./_posts/'
 
 def from_date(datestr):
     for fmt in ('%Y-%m-%d', '%d.%m.%Y', '%d/%m/%y'):
@@ -36,7 +37,7 @@ class JPost:
 
             self.defaults['slug'] = self.slug()
             self.defaults['filename'] = self.filename()
-            self.destpath = os.path.join('./_posts/', self.filename())
+            self.destpath = os.path.join(DEST, self.filename())
 
     def __str__(self):
         return frontmatter.dumps(self.post)
@@ -77,7 +78,11 @@ class JPost:
     def validate_date(self):
         dateobj = self.post['date']
         # self.post['date'] = dateobj.strftime('%Y-%m-%d')
-        self.post['date'] = str(dateobj.strftime('%Y-%m-%d'))
+        try:
+            self.post['date'] = dateobj.strftime('%Y-%m-%d')
+        except:
+            print("WARNING: Date on {0} was not parsed.".format(self.filename()))
+            self.post['date'] = dateobj
 
     def str_front_matter(self):
         fm = []
@@ -88,8 +93,8 @@ class JPost:
 
 def filename_filter(filename):
     ext = os.path.splitext(filename)[1].strip().lower()
-    if (YYYYMMDD.findall(filename)): # Ignores any files with YYYY-MM-DD
-        return False
+    # if (YYYYMMDD.findall(filename)): # Ignores any files with YYYY-MM-DD
+    #     return False
     if('.md' == ext):
         return True
     else:
@@ -111,6 +116,15 @@ def visit_dir(args, dirname, names):
         jp.apply_defaults()
         jp.write_file()
 
-# Set the directory you want to start from
-os.path.walk('.', visit_dir, "")
+def main():
+    try:
+        os.makedirs(DEST)
+    except OSError:
+        if not os.path.isdir(DEST):
+            raise
+    # Set the directory you want to start from
+    os.path.walk('.', visit_dir, "")
+
+if __name__ == "__main__":
+    main()
 
