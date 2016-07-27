@@ -36,6 +36,7 @@ Matt [************************] (Photon) is online
 
 `board()` currently understands three words, which can be used by the end use
 to use functions within the module.
+
 - led_on
 - led_off
 - reset
