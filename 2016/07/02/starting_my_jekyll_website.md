@@ -4,7 +4,7 @@ tags:
   - Jekyll
   - MinimalMistakes
   - project_notebook
-date:   2016-06-30
+date:   2016-07-02
 published: true
 
 author: Nathan Genetzky
@@ -40,6 +40,7 @@ that contains the content. I would like to use git submodules to do this.
 [@jryio][jryio] wrote a [post][jry] about this.
 
 Limitations:
+
 - content can only contain "\_posts" and pages
 - content can not utilize collections (without using symlinks)
 - The website repo has to update the submodule when it wants the content updated.
@@ -90,6 +91,7 @@ matter is accessible when using the post/page to create a webpage.
 ### Scripting with front matter
 
 [Using **sed** to remove front matter.][so1]
+
 ```sh
 sed '1 { /^---/ { :a N; /\n---/! ba; d }  }' filename
 
@@ -110,6 +112,7 @@ sed '1 { /^---/ { :a N; /\n---/! ba; d }  }' filename
 to create new posts.
 
 [Script to change date on all files modfied in git][so2].
+
 ```sh
 #!/bin/sh
 # Contents of .git/hooks/pre-commit
