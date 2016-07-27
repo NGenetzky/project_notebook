@@ -1,5 +1,5 @@
 ---
-title:  "Modern C++ in Embedded Systems"
+title:  "Modern Cpp in Embedded Systems"
 tags:
   - cpp
   - c++11

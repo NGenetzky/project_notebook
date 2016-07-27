@@ -55,12 +55,12 @@ keep up to date with advancements in the language. SDSU teaches C++98 standard,
 or thought was important.
 
 
-[1]: {% post-url 2016-05-10-desired-properties-of-the-notebook %}
-[2]: {% post-url 2016-05-11-ideas-about-day-markdown %}
-[3]: {% post-url 2016-06-08-using-particle-cloud %}
+[1]: {% post_url 2016-05-10-desired-properties-of-the-notebook %}
+[2]: {% post_url 2016-05-11-ideas-about-day-markdown %}
+[3]: {% post_url 2016-06-08-using-particle-cloud %}
 [4]: https://github.com/NGenetzky/particle-projects
-[5]: {% post-url 2016-06-05-particle-code-now-on-github %}
-[6]: {% post-url 2016-05-11-i2c-on-particle %}
-[7]: {% post-url 2016-05-16-can-with-particle-v1 %}
-[8]: {% post-url 2016-05-16-modern-cpp-in-embedded %}
-[9]: {% post-url 2016-06-24-intro-to-particle %}
+[5]: {% post_url 2016-06-05-particle-code-now-on-github %}
+[6]: {% post_url 2016-05-11-i2c-on-particle %}
+[7]: {% post_url 2016-05-16-can-with-particle %}
+[8]: {% post_url 2016-05-16-modern-cpp-in-embedded-systems %}
+[9]: {% post_url 2016-06-24-intro-to-particle %}
