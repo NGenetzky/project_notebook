@@ -15,8 +15,9 @@ author: Nathan Genetzky
 layout: single
 ---
 
+Discussion on code modules that were built to extend the Particle cloud
+functionality.
 
-# Customizing Firmware Cloud API
 
 ## Previous dicussed
 The do, put, and post capability was previously dicussed in
@@ -138,4 +139,4 @@ action needs to be repeated at a certain interval.
 
 
 
-[1]: 2016/06/08/using_particle_cloud.md
+[1]: {% post_url 2016-06-08-using-particle-cloud %}
