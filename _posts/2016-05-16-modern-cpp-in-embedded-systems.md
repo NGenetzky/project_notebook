@@ -1,16 +1,16 @@
 ---
 author: Nathan Genetzky
 date: '2016-05-16'
-filename: 2016-05-16-modern-c-in-embedded-systems.md
+filename: 2016-05-16-modern-cpp-in-embedded-systems.md
 layout: single
 published: true
-slug: modern-c-in-embedded-systems
+slug: modern-cpp-in-embedded-systems
 tags:
 - cpp
 - c++11
 - literature_review
 - project_notebook
-title: Modern C++ in Embedded Systems
+title: Modern Cpp in Embedded Systems
 ---
 
 Reading literature about Modern C++ and its application in Embedded Systems.
