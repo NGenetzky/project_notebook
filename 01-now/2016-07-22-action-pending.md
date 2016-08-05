@@ -10,7 +10,7 @@ tags:
   - Fan
 date: 2016-07-22
 slug: action-pending
-published: false
+published: true
 author: Nathan Genetzky
 layout: single
 ---

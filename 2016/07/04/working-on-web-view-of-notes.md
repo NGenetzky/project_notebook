@@ -4,7 +4,7 @@ tags:
   - project_notebook
 date: 2016-07-04
 slug: working-on-web-view-of-notes
-published: false
+published: true
 author: Nathan Genetzky
 layout: single
 ---

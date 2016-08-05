@@ -5,7 +5,6 @@ tags:
   - particle
   - project_notebook
 date:   2016-05-10
-published: false
 layout: single
 published: true
 

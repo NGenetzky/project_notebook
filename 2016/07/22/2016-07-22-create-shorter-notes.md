@@ -4,7 +4,7 @@ tags:
   - project_notebook
 date: 2016-07-22
 slug: create-shorter-notes
-published: false
+published: true
 author: Nathan Genetzky
 layout: single
 ---

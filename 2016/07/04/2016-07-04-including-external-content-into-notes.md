@@ -4,7 +4,7 @@ tags:
   - project_notebook
 date: 2016-07-05
 slug: including-external-content-into-notes
-published: false
+published: true
 author: Nathan Genetzky
 layout: single
 ---
